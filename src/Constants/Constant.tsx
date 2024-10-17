@@ -1,7 +1,4 @@
-// import { url } from "inspector";
 import { Instagram, Linkedin, LucideGithub, Mail } from "lucide-react";
-
-
 export const slugsHome = [
   "typescript",
   "javascript",
@@ -121,10 +118,7 @@ export const NavbarItems = [
     Name:"Skills",
     path:"/skills"
   },
-  // {
-  //   Name:"Projects",
-  //   path:"/project"
-  // },
+
   {
     Name:"Achievement",
     path:"/achievements"

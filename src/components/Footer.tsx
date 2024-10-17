@@ -15,7 +15,7 @@ interface Repo {
 const username: string = "raushanraj99";
 
 function Footer() {
-  const [repos, setRepos] = useState<Repo[]>([]); // Use the Repo[] type
+  const [repos, setRepos] = useState<Repo[]>([]); 
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -28,10 +28,9 @@ function Footer() {
         if (!response.ok) {
           throw new Error("Failed to fetch repositories");
         }
-        const data: Repo[] = await response.json(); // Specify the expected type here
+        const data: Repo[] = await response.json(); 
         setRepos(data);
       } catch (err) {
-        // Type guard for the error to ensure it's an instance of Error
         if (err instanceof Error) {
           setError(err.message);
         } else {
@@ -43,7 +42,7 @@ function Footer() {
     };
 
     fetchRepos();
-  }, []); // Empty dependency array because 'username' is a constant
+  }, []); 
 
   const totalStars = repos.reduce(
     (acc, repo) => acc + repo.stargazers_count,

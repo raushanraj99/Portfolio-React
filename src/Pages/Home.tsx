@@ -1,4 +1,3 @@
-// import React from 'react'
 import { Github, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -16,18 +15,13 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 
-// import { useEffect, useState } from "react";
-
 import IconCloud from "@/components/ui/icon-cloud";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  // const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-  // const [color, setColor] = useState("#ffffff");
-
   return (
     <div className="min-h-screen bg-[#1F2531] text-gray-200">
-      {/* Main Content */}
+    
       <main className="container-fluid mx-auto py-8">
         {/* Home Section */}
         <Particles
