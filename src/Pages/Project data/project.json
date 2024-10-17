@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "title": "Node Js CRUD API",
+    "description": "A complete Node js CRUD API for Todo App.",
+    "technologies": [
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/node_js_todo_api.git",
+    "live": true,
+    "liveUrl": "https://todo-app-nodejs-9jyl.onrender.com/api/v1/task/my"
+  },
+  {
+    "id": 2,
+    "title": "Native Buddy",
+    "description": "A Full-Stack Web App to book a buddy for tourists in unfamiliar places.",
+    "technologies": [
+      "Node.js",
+      "MongoDB",
+      "hbs",
+      "CSS"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/Native-Buddy.git",
+    "live": true,
+    "liveUrl": "https://native-buddy.onrender.com/"
+  },
+  {
+    "id": 3,
+    "title": "Blog Application",
+    "description": "A Full-Stack Web App to share and publish ideas with everyone.",
+    "technologies": [
+      "Express",
+      "MongoDB",
+      "ejs",
+      "CSS"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/Blog_application.git",
+    "live": true,
+    "liveUrl": "https://bharatblog.onrender.com/"
+  },
+  {
+    "id": 4,
+    "title": "Calculator using Python",
+    "description": "A GUI-based operational calculator using Tkinter for daily expenditure tracking.",
+    "technologies": [
+      "Python"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/calculator_using_python.git",
+    "live": false,
+    "liveUrl": "#"
+  },
+  {
+    "id": 5,
+    "title": "HITian Inside",
+    "description": "A frontend React application for a media society of Haldia Institute of Technology",
+    "technologies": [
+      "React","tailwind","AOS"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/HITian_inside.git",
+    "live": true,
+    "liveUrl": "https://hitianinsidofficial.netlify.app/home"
+  },
+  {
+    "id": 6,
+    "title": "Snake and Ladder",
+    "description": "A digital version of the Snake and Ladder game with all the rules and regulations.",
+    "technologies": [
+      "Python"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/snake-and-ladder.git",
+    "live": true,
+    "liveUrl": "https://replit.com/@raushanraj99/snakeandladder-game"
+  },
+  {
+    "id": 7,
+    "title": "Guess The Movie",
+    "description": "Guess the movie name by looking at blank spaces and a few characters. Points are awarded accordingly.",
+    "technologies": [
+      "Python"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/guess-the-movie.git",
+    "live": true,
+    "liveUrl": "https://replit.com/@raushanraj99/guess-the-movie?v=1#guessmovie.py"
+  },
+  {
+    "id": 8,
+    "title": "Python CGI & Tkinter with AWS",
+    "description": "A Stopwatch project based on HTML, CSS, and JavaScript, hosted on AWS.",
+    "technologies": [
+      "AWS",
+      "Python",
+      "Linux",
+      "Docker",
+      "JavaScript",
+      "HTML"
+    ],
+    "githubUrl": "https://github.com/raushanraj99/summer_project_final_cgi_programming.git",
+    "live": false,
+    "liveUrl": "#"
+  }
+]
