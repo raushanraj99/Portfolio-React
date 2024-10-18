@@ -37,14 +37,14 @@ function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-[#2A3441] shadow-md">
           <nav className="container mx-auto px-4 py-2 flex flex-col">
-            {["Home", "About", "Skills", "Projects", "Achievement"].map(
-              (item) => (
+            {NavbarItems.map(
+              (item,index) => (
                 <a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
+                  key={index}
+                  href={item.path}
                   className="py-2 text-gray-300 hover:text-white transition-colors duration-200"
                 >
-                  {item}
+                  {item.Name}
                 </a>
               )
             )}
