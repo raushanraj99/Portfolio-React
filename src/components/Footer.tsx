@@ -74,7 +74,7 @@ function Footer() {
                     <HoverCardTrigger>
                       <a
                         target="_blank"
-                        href="https://medium.com/@raushanraj9950"
+                        href="https://github.com/raushanraj99"
                         className="hover:underline hover:underline-offset-2 decoration-[#C0DB11]"
                       >
                         Github
